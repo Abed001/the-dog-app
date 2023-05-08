@@ -1,0 +1,168 @@
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.Home-h1 {
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.Home-appname {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.Home-appname p {
+  color: white;
+}
+
+
+.Home-input-size{
+  background-color:rgb(222, 210, 210);
+
+  padding: 5px;
+ width: 500px;
+}
+.Home-heading-size{
+  font-size:40px;
+}
+.Home-img{
+  width: 300px;
+  height: 300px;
+}
+.Home-main-container{
+
+    background-color: rgb(9, 2, 56);
+  
+}
+.Home-map-images{
+  margin: 20px;
+ width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Home-map-images article{
+  max-height: 380px;
+  padding: 15px;
+  background-color: rgb(113, 120, 168);
+  margin: 20px;
+ 
+}
+.Home-map-images article:hover{
+  background-color: rgb(153, 163, 225);
+ 
+}
+.Home-map-images p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: antiquewhite;
+width: 300px;
+ max-width:30ch;
+ 
+}
+.Home-map-images h3{
+  margin-top: 10px;
+  margin-bottom: 2px;
+  color: white;
+  width: 200px;
+  
+ }
+ .Home-link{
+  text-decoration: none;
+ }
+
+ .Single-container {
+  height: 100vh;
+  width: 100%;
+  flex-direction: row;
+  background-color: rgb(9, 2, 56);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.Single-left-article img{
+  width: 450px;
+  height: 450px;
+}
+
+
+.Single-right-article {
+  padding-top: 20px;
+  margin-bottom: 70px;
+  list-style: none;
+  margin-left: 20px;
+  text-align: left;
+  
+  }
+
+.Single-right-article h1,p,ul,li{
+color: white;
+  width: 450px;
+
+}
+
+.Single-right-article h1{
+  font-size:2.5rem;
+  margin-bottom: 0px;
+  
+  }
+  .Single-right-article ul{
+    color: rgb(235, 205, 205);
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    
+    }
+    .Single-right-article ul{
+    color: rgb(235, 205, 205);
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    
+    }
+    .Single-right-article ul li{
+      color: rgb(235, 205, 205);
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 0.25em;
+      
+      }
+   .Single-para{
+    line-height: 1.5;
+    margin-bottom: 1em;
+    color: rgb(235, 205, 205);
+    font-size: 1rem;
+   }
+
+   .back-button{
+    margin-top: 8px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(84, 83, 83);
+    display: inline-block;
+    transition:  background-color 0.3s ease-out;
+   }
+   .back-button:hover{
+    background-color: grey;
+    
+   
+   }
+  
+  
